@@ -162,12 +162,12 @@ void Board::clearBoardAnimation(const std::string& winnerName) {
             if (x < cols - 1) {
                 std::cout << trapdoorRow[x] << "   ";
             } else {
-                std::cout << trapdoorRow[x] << " ||\n";
+                std::cout << trapdoorRow[x] << "||\n";
             }
         }
 
         // (Added exactly 1 space here to perfectly align it with the 30-character top board)
-        std::cout << "^^                          ^^\n";
+        std::cout << "^^                         ^^\n";
 
         // 6. Redraw the winner banner underneath so it stays on screen
         std::cout << "\n========================================\n";
