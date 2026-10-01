@@ -1,11 +1,17 @@
-C# Goal and Meditate - projects were created for Programming with Classes to demonstrate Inheritance and Polymorphism
+About Me:
+I'm currently a cybersecurity student at Brigham Young University - Idaho. I've been programming since fifth grade, and have now programmed in JavaScript, Java, Python, SQL, C#, Bash, and PowerShell. I have also programmed in Rust, C++, TypeScript, and Java relying fully on promp engineering and AI. While I don't remember all of these languages as of current, I've loved learning each of them and the concepts unique to them. 
+As a student I have passed the Security+ exam, and am working on a couple other certifications in my field. I have also gotten my programming cluster from BYU-I. I'm still trying to figure out what I want to pursue in the field, but hope to combine the programming I've done for fun with my degree in security.
 
-Connect4 - came about when I heard that it was often used as a interview question. I suggested it as a final project to a friend. The night before it was due I sat down with him and found his code to be sloppy and disfunctional. That night, before midnight we knocked out the entire project from start to finish, completely scrapping the original. Erik designed the program and had the dream to finish it, I designed the program and indevidual functions bringing the concepts to life. He also played a very important role in debugging. 
+This portfolio contains mostly recent projects, with the biggest I can publish publicly online being from my CSE 310 class. In this class we were encouraged to build our skills using AI. The projects from this class are as follows:
 
-Daily Problems - Though I'm busy with school, I thought the daily coding problems sounded fun. When I have less-busy days I'll drop them in this folder.
+1. A factorial Calculator programmed in Rust.
+2. Connect 4 Programmed in C++. 
+    You can also find a Connect 4 in Rust in the first project, and one in the main folder programmed in python. The one in Python was programmed with a friend as a freshman. The one in Rust has significant improvements, was mostly completed using AI, and was done as a side project in under an hour. This C++ version was also done with AI but was given more time, and includes the ability to play the compute
+3. An art app written in Java. It was completed in only a few hours, and had additional features piled on. I don't think you'd consider it polished, but it was a ton of fun to make.
+4. A mentor Dashboard: When I was a mentor at BYU-I we frequently had to do one on ones with students (or 1:1's). This web app was created so that coordinators could get more data while shadowing the 1:1's to help the Mentors improve. It allows them to track how much the mentor speaks vs the students, take notes, and export the data in a readable format. 
+5. My last project for the class, I worked quite hard on making a note taking app in Kotlin. In my opinion, it's one of the best things I've built. I also had more success than any of the other projects in using AI, and included what I did to make the project so quickly and successfully (the code was completed in about four hours). This includes the original prompt and wireframe used for the project. 
+6. As a team in the class we built a QR code generator. While not in my portfolio, it can be found [here](https://github.com/masontuft/ScanSmith).
 
-Been busy with school and travel, but I added my Resume to the portfolio as well. Future plans are to fix my connect four with a dictionary!
+The portfolio also includes some daily challenges I had some fun with, but they were quickly put on hold for school work. I hope to pick them back up soon, though. There is also a colors_by_tone file, which I created with multiple gemini's. I still use it for art, and thing it's a fun way to show what you can do with AI in a few minutes if you know what your doing. Originally it was in Project three with the art app. 
 
-Connect4Rust - An AI assisted fix to the original program. First fix was to fix a lot of the nested for loops and include a dictionary. The second, was my favorite. For some reason in the original program I was checking the ENTIRE board each round. But... you can only win with the piece you placed! AI caught this and I worked with it to simplify the code! Now it only checks around the last place piece for a win. 
-
-Connect4C++ - Tons of fun trying AI and pushing the limits with it! This is a multi class connect four with added animations, logic, and structure. The best part, however, is that you can play vs the computer! This project was a great way to apply what I have been learning in my AI class to the real world. The result is a very fun version of the game. I have had an issue with clearing the console I hope to fix. 
+I've included my resume, which I try to keep up to date. I can be found on linkedin [here](https://www.linkedin.com/in/andrew-benge-d711/).

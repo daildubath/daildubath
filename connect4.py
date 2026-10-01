@@ -2,6 +2,7 @@ import os
 import time
 
 # Written by Erik Woodruff and Andrew Benge, comments by AI
+# written Dec 2024
 # written for Erik's final project
 # Feel free to play around, but I wouldn't recommend messing with the diagonal check logic
 # unless you really know what your doing....

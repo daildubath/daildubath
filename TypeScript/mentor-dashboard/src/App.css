@@ -1,0 +1,222 @@
+/* src/App.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0A1128;
+  color: white;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  overflow: hidden;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.header h1, .header h2 {
+  margin: 0;
+  font-weight: normal;
+  color: white; /* Added this to override the browser's default black headings */
+}
+
+/* Level 2: Three Column Layout */
+.content-wrapper {
+  display: flex;
+  flex-grow: 1;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.side-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.side-panel h3 {
+  margin: 0 0 5px 0;
+  font-size: 1.1rem;
+  color: #6BA4FF;
+}
+
+.split-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.center-panel {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mentor-name-input {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.3);
+  padding-bottom: 5px;
+  width: 80%;
+}
+
+.mentor-name-input:focus {
+  outline: none;
+  border-bottom: 2px solid white;
+}
+
+textarea {
+  width: 100%;
+  flex-grow: 1;
+  background-color: #152243;
+  color: white;
+  border: 2px solid #2a3d66;
+  border-radius: 8px;
+  padding: 15px;
+  resize: none;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #6BA4FF;
+}
+
+/* Bottom Bars and Controls */
+.progress-bar-container {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  border: 4px solid black;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+
+.progress-mentor {
+  background-color: #6BA4FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 4px solid black;
+  transition: width 0.3s ease;
+  white-space: nowrap;
+}
+
+.progress-mentee {
+  background-color: #FFFACD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 0.3s ease;
+  white-space: nowrap;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* Restored nice wide gap */
+  padding-bottom: 10px;
+}
+
+.action-btn {
+  background-color: #2a3d66; /* Changed from gray to the nice blue */
+  padding: 15px 50px;
+  text-align: center;
+  border: 3px solid #1a2640; /* Darker blue border */
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white; /* Changed to white text to contrast the dark blue */
+  font-family: inherit;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.action-btn:hover {
+  background-color: #3b548c; /* Slightly lighter blue on hover */
+}
+
+.btn-subtext {
+  font-size: 0.9rem;
+  font-weight: normal;
+  display: block;
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.7); /* Softened the subtext color */
+}
+
+/* NEW: Small Buttons framing the pie chart */
+.secondary-controls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 350px; /* Matches pie chart width */
+  margin-bottom: 5px;
+}
+
+.small-action-btn {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 5px 15px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.small-action-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-color: white;
+}
+
+/* Coordinator Header Input */
+.header-input {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: right;
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.3);
+  padding-bottom: 2px;
+  width: 250px;
+  font-family: inherit;
+}
+
+.header-input:focus {
+  outline: none;
+  border-bottom: 2px solid white;
+}
