@@ -14,4 +14,6 @@ This portfolio contains mostly recent projects, with the biggest I can publish p
 
 The portfolio also includes some daily challenges I had some fun with, but they were quickly put on hold for school work. I hope to pick them back up soon, though. There is also a colors_by_tone file, which I created with multiple gemini's. I still use it for art, and thing it's a fun way to show what you can do with AI in a few minutes if you know what your doing. Originally it was in Project three with the art app. 
 
-I've included my resume, which I try to keep up to date. I can be found on linkedin [here](https://www.linkedin.com/in/andrew-benge-d711/).
+Recently I made a short bash script to setup a new computer. Unlike other project bash scripts, this one was personal. I made it to speed up the transition to a new computer, which worked beautifully. It finished about 90% of the setup process in an hour while I was working on homework. I thought it would be fun to share here, and I would love any ideas for future useful bash scripts!
+
+I've included my resume, whih I try to keep up to date. I can be found on linkedin [here](https://www.linkedin.com/in/andrew-benge-d711/).
